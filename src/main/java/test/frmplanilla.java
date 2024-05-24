@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package test;
 
 import Conexion.VendedorDao;
@@ -10,7 +7,6 @@ import java.awt.Font;
 import java.awt.HeadlessException;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.RowFilter;
 import javax.swing.table.DefaultTableModel;

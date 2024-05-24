@@ -1,11 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Conexion;
 
 import Datos.Vendedor;
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.sql.*;
@@ -13,16 +9,6 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author User create table empleados( id integer unsigned auto_increment,
- * nombre varchar (50) not null, sueldobasico decimal (10,2) unsigned not null,
- * mes varchar (15)not null, faltas integer unsigned null, des_afp decimal
- * (10,2) unsigned not null, des_essalud decimal(10,2)unsigned not null,
- * total_descuento decimal (10,2) unsigned not null, horas_extras integer
- * unsigned not null, pago_horasextras decimal (10,2) unsigned not null,
- * sueldo_neto decimal(10,2) unsigned not null, primary key (id) );
- */
 public class VendedorDao {
 
     Conexion instanciasql = Conexion.getInstancia();
